@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1248px;
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: Montserrat;
+}
+.nav{
+    width: 100%;
+    height: 48px;
+    margin: 48px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 154.141px;
+    height: 42.88px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 48px; 
+    height: 48px; 
+}
+
+.icon a img {
+    position: absolute;
+    width: 20px;
+    height: 8px;
+    z-index: 1; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon img {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+}
+.icon_shop{
+    position: relative;
+    width: 32px;
+    height: 28px;
+}
+.icon_shop img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -10;
+    top: -10;
+    z-index: 1;
+}
+.icon_shop a img{
+    width: 24px;
+    height: 24px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px; 
+}
+.home ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: black;
+    font-size: 20px;
+}
+.ask{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+i{
+    color: #2975FF;
+    font-size: 16px;
+}
+.ask h1{
+    color: #1A202C;
+    font-size: 40px;
+    width: 504px;
+}
+.two{
+    gap:30px; 
+    display: flex;
+}
+.Customer{
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 96px; 
+    display: flex;
+}
+
+.Large{
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 72px; 
+    display: flex;
+}
+.cus{
+    font-size: 24px;
+    color: #1A202C;
+}
+.Customer span{
+    font-size: 18px;
+    color: #1A202C;
+}
+a{
+    color: inherit;
+}
+.Custom{
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 30px; 
+    display: flex;
+    
+}
+.larg{
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: flex;
+}
+.cont{
+    width: 888px;
+    height: 100%;
+    padding-top: 140px;
+    padding-left: 140px;
+    display: flex;
+    gap: 30px;
+}
+
+.reach {
+    width: 440px;
+    color: #1A202C; 
+    font-size: 40px;
+}
+
+.contact-form {
+    padding-top: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: 1A202C;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    width: 90PX;
+    padding: 10px;
+    background-color: #00c291;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00a87a;
+}
+.letter{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+.newsletter {
+    background-color: #f7f9fc;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.newsletter .title {
+    color: #2975FF;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+.newsletter b {
+    color: #1A202C;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.newsletter input[type="email"] {
+    width: 60%;
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 15px 25px;
+    background-color: #00c291;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #00a87a;
+}
+
+.footer{
+    width: 1248px;
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: Montserrat;
+    display: flex;
+    padding-top: 144px;
+    padding-right: 140px;
+    gap: 170px;
+
+}
+.footer-column{
+    flex-direction: column;
+    gap: 30px;
+}
